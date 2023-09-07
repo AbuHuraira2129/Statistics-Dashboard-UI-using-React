@@ -1,0 +1,258 @@
+.Right{
+    height: 100%;
+    background-color: white;
+    width: 25%;
+    padding-bottom: 30px;
+}
+
+.right-header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-header h2{
+    color: #31394D;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-header a{
+    color: #748AA1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.My-card{
+    border-radius: 5px;
+    background: linear-gradient(180deg, #679CF6 0%, #4072EE 100%);
+    box-shadow: 0px 5px 20px 0px #C0C7D6;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: -10px;
+}
+
+.mycard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mycard-header h3{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mycard-header .dropdown{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mycard-header .dropdown span{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.dropdown select{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.dropdown select:hover{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.box{
+    width: 100%;
+}
+
+.box svg path{ 
+    fill: rgba(255, 255, 255, 0.7);
+    background-blend-mode: soft-light;
+}
+
+.calender{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.calender-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calender-header h3{
+    color: #31394D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calender-header .dropdown{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.calender-header .dropdown select{
+    background-color: transparent;
+    border: none;
+    color: #31394D;
+}
+
+.calender-header .dropdown select:hover{
+    background-color: transparent;
+    border: none;
+    color: #31394D;
+}
+
+.calender-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.calender-grid .days{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calender-grid .days p{
+    color: #B8C5D3;
+    text-align: center;
+}
+
+.calender-grid .week{
+    width: 100%;
+    line-height: 36px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+}
+
+.offdays{
+    color: #B8C5D3;
+    background: #F4F7FC !important;
+}
+
+.yellowday{
+    color: white;
+    background: #FEC400 !important;
+}
+
+.greenDay{
+    background: #29CB97 !important;
+    color: white;
+}
+
+.purpleDay{
+    background: #B558F6 !important;
+    color: white;    
+}
+
+.calender-grid .week p{
+    width: 100%;
+    border-radius: 5px;
+    background: #E5E9F2;
+    text-align: center;
+}
+
+hr{
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.popular-topics{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.popular-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-header h3{
+    color: #31394D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.popular-header a{
+    color: #748AA1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.topics{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-wrap{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.item-wrap h6{
+    color: #31394D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item-wrap p{
+    color: #748AA1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.topic-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+@media (max-width: 600px) {
+    .Right{
+        background-color: white;
+        width: 100%;
+    }    
+}
